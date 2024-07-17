@@ -1,0 +1,70 @@
+.container {
+    width: 70%;
+    margin: auto;
+    background: radial-gradient(#ff7e7e,#7e7eff);
+    padding: 20px;
+    box-shadow: 0 0 15px #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    background-color: #fff3;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*--------- LINK ---------*/
+
+.links_caja{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr) );
+    gap: 15px;
+}
+.links a {
+    text-decoration: none;
+    color: #eee;
+    display: flex;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.links p{
+    margin: auto;
+    align-items: center;
+}
+.links_item{
+    display: grid;
+    background-color: #ff7e7e;
+    border-radius: 25px;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.links_item img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 5px ;
+}
+.links_item :hover{
+    background-color: #a55454;
+    border-radius: 25px;
+}
+.links_item img:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 650px) {
+    .links_caja {
+        grid-template-columns: repeat(1, minmax(200px, 1fr) );
+    }
+}

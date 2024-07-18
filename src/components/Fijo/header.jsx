@@ -1,9 +1,8 @@
-import "./../CSS/header + footer.css";
+import "./../../CSS/header + footer.css";
 import { Login } from "./login";
 
 export function Encabesado (){
     return(
-        <header>
             <nav className="nav_1">
                 <ul>
                     <li>
@@ -23,6 +22,5 @@ export function Encabesado (){
                     <Login />
                 </ul>
             </nav>
-        </header>
     )
 }

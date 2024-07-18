@@ -1,2 +1,2 @@
-# paguina-hgw
+# pagina-hgw
 Proyecto SENA

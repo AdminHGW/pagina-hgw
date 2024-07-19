@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import "./CSS/General.css"
 import { Encabesado } from "./components/Fijo/header"
 import { Pie } from "./components/Fijo/footer"
-import { Main } from './components/main-cuerpo'
+import { Cuerpo } from './components/main/contenido'
 
 ReactDOM.createRoot(document.getElementById('header')).render(
   <React.StrictMode>
@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('header')).render(
 )
 ReactDOM.createRoot(document.getElementById('contenido')).render(
   <React.StrictMode>
-    <Main/>
+    <Cuerpo/>
   </React.StrictMode>,
 )
 ReactDOM.createRoot(document.getElementById('footer')).render(

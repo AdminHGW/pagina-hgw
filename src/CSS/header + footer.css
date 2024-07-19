@@ -1,5 +1,21 @@
 header{
     background-color: #d1aefa;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 15px;
+}
+.menu-desplegable button{
+    width: 64px;
+    height: 64px;
+    background-color: #222;
+    border: none;
+    padding: 0;
+    margin: 3px;
+    border-radius: 50%;
+}
+.menu-desplegable img{
+    height: 64px;
+    width: 64px;
 }
 .nav_1{
     display: grid;
@@ -9,6 +25,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 0;
+    margin: 15px 0;
 }
 .nav_1 li{
     list-style: none;
@@ -23,6 +40,33 @@ header{
     background: #9578b4;
     border-radius: 10px;
 }
+.buscador{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
+}
+.buscador input,button{
+    height: 50%;
+}
+.buscador input{
+    border-radius: 60px;
+    padding: 0 15px;
+    border: none;
+    background-color: #eee;
+}
+.buscador button{
+    border: none;
+    border-radius: 60px;
+    width: 6em;
+}
+.buscador button:hover{
+    background-color: #aaa;
+}
+
+
 
 /* ------------------------------------------ */
 

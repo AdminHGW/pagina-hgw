@@ -1,4 +1,4 @@
-body, #root {
+body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -11,13 +11,17 @@ body, #root {
     width: 100%;
     height: 100%;
 }
-header,footer{
+#header,#footer,#contenido{
     width: 100%;
 }
 h1,h2,h3,h4,h5,h6,a{
     text-transform: capitalize;
     text-decoration: none;
+    text-wrap: balance;
 }
-h1,h2, p {
+h1,h2,.centrar {
     text-align: center;
+}
+p{
+    text-wrap: pretty;
 }
